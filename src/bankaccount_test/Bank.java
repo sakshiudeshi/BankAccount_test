@@ -21,7 +21,7 @@ public class Bank {
     private static void print(double doubleNum) {
         System.out.println(doubleNum);
     }
-    
+
     private static void print(Object obj) {
         System.out.println(obj);
     }
@@ -50,7 +50,7 @@ public class Bank {
         print(sakshiAccount.lastTransaction.toString());
         print(sunilAccount.lastTransaction.toString());
         print(sunilAccount.getNumberOfTransactions());
-        
+
         SavingsAccount rahilAccount;
         rahilAccount = new SavingsAccount(5000, "Rahil", "Andheri", 7.5);
         rahilAccount.addInterest();
